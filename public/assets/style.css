@@ -1,0 +1,72 @@
+.container{
+    background-color: black;
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+}
+h1{
+    color: white;
+    float: left;
+    margin-left: 10px;
+}
+ul.users{
+    float: right;
+    margin-right: 20px;
+    
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+#loginBtn,#registerBtn{
+   border-style: none;
+   padding: 15px 20px;
+   color: white;
+   font-size: 18px;
+   border-radius: 4px;
+   
+
+}
+#loginBtn a,#registerBtn a{
+    text-decoration: none;
+    color: white;
+    margin-right: 12px;
+ }
+ 
+#loginBtn{
+    background-color: rgb(10, 250, 10);
+    margin-right: 5px;
+}
+#registerBtn{
+    background-color: red;
+}
+#loginBtn:hover{
+    background-color: rgb(130, 248, 130);
+    margin-right: 5px;
+    
+}
+#registerBtn:hover{
+    background-color: rgb(250, 89, 89);
+    
+}
+
+.welcome h2{
+    color: black;
+    margin-top: 20vh;
+    font-size: 40px;
+}
+
+body{
+    background-color: white;
+}
+
+h2{
+    color: rebeccapurple;
+}
+h3{
+    color:red;
+}
+h5{
+    color: red;
+}

@@ -1,0 +1,118 @@
+.form_container{
+    margin: auto;
+    max-width: 300px;
+    height: 65vh;
+    margin-bottom: 10px;
+    width: auto;
+    height: 50vh;
+    height: auto;
+    box-shadow: rgb(0,0,250);
+    margin-top: 4%;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+.Login-container{
+    margin: auto;
+    max-width: 300px;
+    height: 50vh;
+    margin-bottom: 10px;
+    width: auto;
+    box-shadow: rgb(0,0,250);
+    margin-top: 4%;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.form_header{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.regForm{
+    height: 70vh;
+    max-width: auto;
+    margin-bottom: 10px;
+    margin: auto;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.loginForm{
+    height: 40vh;
+    max-width: auto;
+    margin: auto;
+    margin-top: 30px;
+    margin-left: 15px;
+    
+}
+label{
+    font-weight: bold;
+    
+}
+form.regForm input[type=text],input[type=email],input[type=password]{
+    padding: 10px 15px;
+    width: auto;
+
+}
+p a{
+    text-decoration: none;
+    color: red;
+}
+p a:hover{
+    text-decoration: underline;
+}
+#regBtn{
+    background-color:;
+    padding: 12px 79px;
+    font-weight: bold;
+    border: 1px solid grey;
+    border-radius: 4px;
+    color:black;
+
+}
+
+#loginBtn{
+    background-color:;
+    padding: 12px 82px;
+    font-weight: bold;
+    border: 1px solid grey;
+    border-radius: 4px;
+    color:black;
+
+}
+
+.alert{
+    color: red;
+}
+.alert_user{
+    color: rgb(16, 238, 16);
+    font-weight: bold;
+    font-size: 18px;
+    
+
+}
+.alert_login{
+    color: white;
+    background-color: red;
+    padding: 5px 5px 5px 5px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+.alert_login{
+    color: white;
+    background-color:rgb(236, 13, 13);
+    padding: 5px 5px 5px 5px;
+    border-radius: 4px;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-weight: bold;
+}
+.warning{
+    color: rgb(255, 36, 36);
+    font-weight: bold;
+    font-size: 18px;
+    
+
+}
